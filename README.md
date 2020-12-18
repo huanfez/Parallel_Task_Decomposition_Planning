@@ -1,1 +1,3 @@
-# Parallel_Task_Decomposition_Planning
+# automata_decomposition_allocation
+
+JAVA 8.0+
