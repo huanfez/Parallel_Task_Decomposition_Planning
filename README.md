@@ -6,4 +6,4 @@ The repository is for "Parallel Task Decomposition and Concurrent Specification 
 
 Note: These packages need JAVA 8.0+ library. It compiles and runs well with Eclipse IDE. 
 
-- **mrs_taskolan** (ROS package. Deploy robots to the generated task plans; search for the paths in the discrete environment so that the task plans are satisfied.)
+- **mrs_taskplan** (ROS package. Deploy robots to the generated task plans; search for the paths in the discrete environment so that the task plans are satisfied.)
