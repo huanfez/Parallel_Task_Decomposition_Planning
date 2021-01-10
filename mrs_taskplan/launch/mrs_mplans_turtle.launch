@@ -1,0 +1,10 @@
+<launch>
+    <node pkg="mrs_taskplan" type ="robot1_plan_server.py"  name="robot1_motion_server" output="screen" />
+    <node pkg="mrs_taskplan" type ="robot2_plan_server.py"  name="robot2_motion_server" output="screen" />
+    <node pkg="mrs_taskplan" type ="robot3_plan_server.py"  name="robot3_motion_server" output="screen" />
+    <node pkg="mrs_taskplan" type ="robot4_plan_server.py"  name="robot4_motion_server" output="screen" />
+    <node pkg="mrs_taskplan" type ="mrs_plan_client.py"  name="taskplanning1" output="screen" />
+    <node pkg="mrs_taskplan" type ="mrs_plan_client2.py"  name="taskplanning2" output="screen" />
+    <node pkg="mrs_taskplan" type ="taskplans_provider.py"  name="taskplans" output="screen" />
+    <node pkg="mrs_taskplan" type ="plot_node.py"  name="plot" output="screen" />
+</launch>
