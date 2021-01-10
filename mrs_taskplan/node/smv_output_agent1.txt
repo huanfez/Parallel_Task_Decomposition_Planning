@@ -1,0 +1,68 @@
+*** This is NuSMV 2.5.4 (compiled on Fri Jun 12 16:45:40 UTC 2015)
+*** Enabled addons are: compass 
+*** For more information on NuSMV see <http://nusmv.fbk.eu>
+*** or email to <nusmv-users@list.fbk.eu>.
+*** Please report bugs to <nusmv-users@fbk.eu>
+
+*** Copyright (c) 2010, Fondazione Bruno Kessler
+
+*** This version of NuSMV is linked to the CUDD library version 2.4.1
+*** Copyright (c) 1995-2004, Regents of the University of Colorado
+
+*** This version of NuSMV is linked to the MiniSat SAT solver. 
+*** See http://www.cs.chalmers.se/Cs/Research/FormalMethods/MiniSat
+*** Copyright (c) 2003-2005, Niklas Een, Niklas Sorensson 
+
+WARNING *** This version of NuSMV is linked to the zchaff SAT         ***
+WARNING *** solver (see http://www.princeton.edu/~chaff/zchaff.html). ***
+WARNING *** Zchaff is used in Bounded Model Checking when the         ***
+WARNING *** system variable "sat_solver" is set to "zchaff".          ***
+WARNING *** Notice that zchaff is for non-commercial purposes only.   ***
+WARNING *** NO COMMERCIAL USE OF ZCHAFF IS ALLOWED WITHOUT WRITTEN    ***
+WARNING *** PERMISSION FROM PRINCETON UNIVERSITY.                     ***
+WARNING *** Please contact Sharad Malik (malik@ee.princeton.edu)      ***
+WARNING *** for details.                                              ***
+
+-- specification !( F x.state_order = 34)  is false
+-- as demonstrated by the following execution sequence
+Trace Description: LTL Counterexample 
+Trace Type: Counterexample 
+-> State: 1.1 <-
+  x.state_order = 65
+-> State: 1.2 <-
+  x.state_order = 61
+-> State: 1.3 <-
+  x.state_order = 58
+-> State: 1.4 <-
+  x.state_order = 136
+-> State: 1.5 <-
+  x.state_order = 60
+-> State: 1.6 <-
+  x.state_order = 59
+-> State: 1.7 <-
+  x.state_order = 75
+-> State: 1.8 <-
+  x.state_order = 138
+-> State: 1.9 <-
+  x.state_order = 18
+-> State: 1.10 <-
+  x.state_order = 35
+-> State: 1.11 <-
+  x.state_order = 16
+-> State: 1.12 <-
+  x.state_order = 28
+-> State: 1.13 <-
+  x.state_order = 22
+-> State: 1.14 <-
+  x.state_order = 24
+-> State: 1.15 <-
+  x.state_order = 17
+-> State: 1.16 <-
+  x.state_order = 34
+-- Loop starts here
+-> State: 1.17 <-
+  x.state_order = 4
+-> State: 1.18 <-
+  x.state_order = 2
+-> State: 1.19 <-
+  x.state_order = 4
