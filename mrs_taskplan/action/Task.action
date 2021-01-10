@@ -1,0 +1,15 @@
+# 1. goal
+string task
+uint8 rid
+uint8 teamid
+---
+# 2. result
+string task
+uint8 rid
+bool state
+uint8 teamid
+---
+# 3. feedback
+string task
+uint8 rid
+bool state
